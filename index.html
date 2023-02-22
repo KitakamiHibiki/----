@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/navigation.css">
+    <link rel="stylesheet" href="./css/expansionBar.css">
+    <title>Clock</title>
+</head>
+
+<body>
+    <!-- 左边悬浮导航栏 -->
+    <div id="wrapper">
+        <div id="time"></div>
+        <canvas id="canvas_1"></canvas>
+        <div id="navigation" class="notShow">
+            <div class="div_1" id="tools"><a href="javascript:void(0);">工具箱</a></div>
+            <div class="div_1" id="coding"><a href="javascript:void(0);">计算机编程</a></div>
+            <div class="div_1"><a href="http://www.baidu.com">百度搜索</a></div>
+            <div class="div_1"><a href="https://fanyi.baidu.com/?aldtype=16047#auto/zh">百度翻译</a></div>
+            <div class="div_1"><a href="http://www.bilibili.com">bilibili</a></div>
+            <div class="div_1"><a href="https://baike.baidu.com/">百度百科</a></div>
+            <div class="div_1"><a href="https://zh.m.wikipedia.org/zh-hans/Wikipedia:%E9%A6%96%E9%A1%B5">维基百科</a></div>
+        </div>
+    </div>
+    <!-- 拓展栏 -->
+    <div class="notShow expansionBar" id="toolsExpansion">
+        <div><a href="https://zh.numberempire.com/matrixcalculator.php">矩阵计算器</a></div>
+        <div><a href="https://www.hipdf.cn/pdf-converter">文件格式转换</a></div>
+        <div><a href="https://cloudconvert.com/chm-to-pdf">格式转换</a></div>
+    </div>
+
+    <div class="notShow expansionBar" id="codingExpansion">
+        <div><a href="https://www.runoob.com/">菜鸟教程</a></div>
+        <div><a href="https://github.com/">Github</a></div>
+        <div><a href="https://www.csdn.net/">CSDN</a></div>
+        <div><a href="https://www.cnblogs.com/">博客园</a></div>
+        <div><a href="https://www.showapi.com/book/view/2129/0">JS参考文档</a></div>
+    </div>
+
+    <script src="./js/index.js"></script>
+    <script src="./js/navigation.js"></script>
+    <script src="./js/expansionBar.js"></script>
+    <script src="./js/musicBar.js"></script>
+</body>
+
+</html>
